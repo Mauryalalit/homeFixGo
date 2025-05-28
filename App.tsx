@@ -13,7 +13,7 @@ import {
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 const user = {
-  name: 'Prince Prajapati',
+  name: 'Prince',
   avatar: 'https://randomuser.me/api/portraits/men/1.jpg',
 };
 
