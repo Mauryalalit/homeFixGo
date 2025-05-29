@@ -2,7 +2,6 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import HomeScreen from './src/screens/HomeScreen';
-
 import CleaningScreen from './src/screens/CleaningScreen';
 import RepairingScreen from './src/screens/RepairingScreen';
 import PaintingScreen from './src/screens/PaintingScreen';
@@ -35,6 +34,10 @@ export type RootStackParamList = {
   ChatScreen: undefined;
   MapScreen: undefined;
   ServiceProvidersScreen: { serviceType: { key: string; label: string; image: string } };
+
+const user = {
+  name: 'Prince',
+  avatar: 'https://randomuser.me/api/portraits/men/1.jpg',
 };
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
